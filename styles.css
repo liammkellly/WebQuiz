@@ -1,0 +1,82 @@
+/*
+
+Copyright 2019 Liam Kelly
+
+This file is part of WebQuiz.
+
+WebQuiz is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+WebQuiz is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with WebQuiz.  If not, see <https://www.gnu.org/licenses/>. 
+
+*/
+
+body {
+  background-color: lightgrey;
+}
+
+
+.Card {
+border-radius: 2em;
+position: absolute;
+top: 10%;
+left:10%;
+width: 80%;
+min-height: 20%;
+background-color: white;
+display: none;
+z-index:1;
+}
+
+
+
+.AnswerChoice {
+	background-color: #EEEEEE;
+	text-align: center;
+	width: 65%;
+}
+
+.AnswerChoice a {
+	color: darkred;
+	text-decoration: none;
+}
+
+.Answer {
+display: none;
+border:0.1em solid black;
+padding: 0.3em;
+background-color: #EEEEEE;
+position:absolute;
+z-index:2;
+}
+
+button {
+  margin: 5%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:disabled {
+background-color: grey;
+}
+
+.Title {
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: center;
+font-size: 2.5em;
+}
+
+.Content {
+margin-left: 10%;
+margin-right: 10%;
+text-align: justify;
+font-size: 1.5em;
+}
